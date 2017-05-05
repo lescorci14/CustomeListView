@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListViewPersonalizado</string>
+    <string name="registrar">Registrar Carros</string>
+    <string name="listar">Listar Carros</string>
+    <string name="reportes">Reportes</string>
+    <string-array name="opciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        <item>@string/reportes</item>
+    </string-array>
+</resources>
