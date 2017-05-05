@@ -3,9 +3,48 @@
     <string name="registrar">Registrar Carros</string>
     <string name="listar">Listar Carros</string>
     <string name="reportes">Reportes</string>
+    <string name="titulo_registro">REGISTRO DE CARROS</string>
+    <string name="placa">Placa</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="precio">Precio</string>
+    <string name="registrar_b">REGISTRAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="error1">Digite la placa</string>
+    <string name="error2">Digite el precio</string>
+    <string name="guardar">Guardado Satisfactoriamente!</string>
+    <string name="rojo">Rojo</string>
+    <string name="blanco">Blanco</string>
+    <string name="azul">Azul</string>
+    <string name="negro">Negro</string>
     <string-array name="opciones">
         <item>@string/registrar</item>
         <item>@string/listar</item>
         <item>@string/reportes</item>
+    </string-array>
+    <string-array name="marca">
+        <item>Audi</item>
+        <item>Chevrolet</item>
+        <item>KIA</item>
+        <item>Renault</item>
+    </string-array>
+    <string-array name="modelo">
+        <item>2007</item>
+        <item>2008</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+    <string-array name="color">
+        <item>@string/azul</item>
+        <item>@string/blanco</item>
+        <item>@string/negro</item>
+        <item>@string/rojo</item>
     </string-array>
 </resources>

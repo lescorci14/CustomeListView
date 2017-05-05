@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            app:srcCompat="@drawable/images"
+            android:id="@+id/imgFoto"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMarcaCarro"
+            android:layout_below="@+id/txtPlacaCarro"
+            android:layout_alignLeft="@+id/txtPlacaCarro"
+            android:layout_alignStart="@+id/txtPlacaCarro"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal|bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtModeloCarro"
+            android:layout_below="@+id/txtMarcaCarro"
+            android:layout_alignLeft="@+id/txtMarcaCarro"
+            android:layout_alignStart="@+id/txtMarcaCarro"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal|bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPlacaCarro"
+            android:layout_marginTop="16dp"
+            android:textStyle="normal|bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgFoto"
+            android:layout_toEndOf="@+id/imgFoto" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPrecioCarro"
+            android:textSize="16sp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_alignBottom="@+id/imgFoto"
+            android:layout_alignLeft="@+id/txtModeloCarro"
+            android:layout_alignStart="@+id/txtModeloCarro"
+            android:layout_marginBottom="10dp" />
+
+    </RelativeLayout>
+</LinearLayout>
