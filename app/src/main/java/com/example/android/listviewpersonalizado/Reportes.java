@@ -30,14 +30,18 @@ public class Reportes extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
                     case 0:
-                        alert1();
+                        reporte1();
+                        break;
+                    case 1:
+                        i = new Intent(Reportes.this, ListadoReporte.class);
+                        startActivity(i);
                         break;
                 }
             }
         });
     }
 
-    public void alert1(){
+    public void reporte1(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(res.getString(R.string.result));
         builder.setMessage(res.getString(R.string.resultado1)+" "+Datos.registrados())

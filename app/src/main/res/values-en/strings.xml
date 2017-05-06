@@ -22,4 +22,6 @@
     <string name="registrados">N° Registred Cars</string>
     <string name="result">Result</string>
     <string name="resultado1">Registred Cars:</string>
+    <string name="numero">N°</string>
+    <string name="listado">Models 2010 - 2015</string>
 </resources>
