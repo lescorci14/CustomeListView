@@ -10,6 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import java.util.ArrayList;
+
 public class Registro extends AppCompatActivity {
 
     private EditText cajaPlaca;
@@ -100,5 +102,6 @@ public class Registro extends AppCompatActivity {
         int fotos[] = {R.drawable.images,R.drawable.images2,R.drawable.images3};
         int numero = (int) (Math.random() *3);
         return fotos[numero];
-       }
+    }
+
 }

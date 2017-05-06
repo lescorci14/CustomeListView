@@ -11,13 +11,16 @@
     <string name="precio">Precio</string>
     <string name="registrar_b">REGISTRAR</string>
     <string name="borrar">BORRAR</string>
-    <string name="error1">Digite la placa</string>
-    <string name="error2">Digite el precio</string>
+    <string name="error1">Digite la placa!</string>
+    <string name="error2">Digite el precio!</string>
     <string name="guardar">Guardado Satisfactoriamente!</string>
     <string name="rojo">Rojo</string>
     <string name="blanco">Blanco</string>
     <string name="azul">Azul</string>
     <string name="negro">Negro</string>
+    <string name="result">Resultado</string>
+    <string name="resultado1">Carros Registrados:</string>
+    <string name="registrados">N° de Carros Registrados</string>
     <string-array name="opciones">
         <item>@string/registrar</item>
         <item>@string/listar</item>
@@ -46,5 +49,8 @@
         <item>@string/blanco</item>
         <item>@string/negro</item>
         <item>@string/rojo</item>
+    </string-array>
+    <string-array name="reportes">
+        <item>@string/registrados</item>
     </string-array>
 </resources>

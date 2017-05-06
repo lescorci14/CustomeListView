@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CustomeListView</string>
+    <string name="azul">Blue</string>
+    <string name="blanco">White</string>
+    <string name="borrar">DELETE</string>
+    <string name="color">Color</string>
+    <string name="error1">Type your plate!</string>
+    <string name="error2">Type the price!</string>
+    <string name="guardar">Sucessfully Saved!</string>
+    <string name="listar">Car List</string>
+    <string name="marca">Branch</string>
+    <string name="modelo">Model</string>
+    <string name="negro">Black</string>
+    <string name="placa">Plate</string>
+    <string name="precio">Price</string>
+    <string name="registrar">Car Registry</string>
+    <string name="registrar_b">REGISTRY</string>
+    <string name="reportes">Reports</string>
+    <string name="rojo">Red</string>
+    <string name="titulo_registro">CAR REGISTRY</string>
+    <string name="registrados">N° Registred Cars</string>
+    <string name="result">Result</string>
+    <string name="resultado1">Registred Cars:</string>
+</resources>

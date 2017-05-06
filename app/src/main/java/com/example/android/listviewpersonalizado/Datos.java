@@ -16,4 +16,13 @@ public class Datos {
     public static ArrayList<Carro> getCarros(){
         return carros;
     }
+
+    public static int registrados(){
+        int cont=0;
+
+        for (int i = 0; i < carros.size(); i++){
+            cont = cont+1;
+        }
+        return cont;
+    }
 }
