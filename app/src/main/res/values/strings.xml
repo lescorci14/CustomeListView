@@ -21,18 +21,23 @@
     <string name="result">Resultado</string>
     <string name="resultado1">Carros Registrados:</string>
     <string name="registrados">N° de Carros Registrados</string>
+    <string name="marcas">N° de Carros Registrados Por Marca</string>
     <string name="listado">Modelos 2010 - 2015</string>
     <string name="numero">N°</string>
+    <string name="audi" translatable="false">Audi</string>
+    <string name="chevrolet" translatable="false">Chevrolet</string>
+    <string name="kia" translatable="false">KIA</string>
+    <string name="renault" translatable="false">Renault</string>
     <string-array name="opciones">
         <item>@string/registrar</item>
         <item>@string/listar</item>
         <item>@string/reportes</item>
     </string-array>
     <string-array name="marca">
-        <item>Audi</item>
-        <item>Chevrolet</item>
-        <item>KIA</item>
-        <item>Renault</item>
+        <item>@string/audi</item>
+        <item>@string/chevrolet</item>
+        <item>@string/kia</item>
+        <item>@string/renault</item>
     </string-array>
     <string-array name="modelo">
         <item>2007</item>
@@ -54,6 +59,7 @@
     </string-array>
     <string-array name="reportes">
         <item>@string/registrados</item>
+        <item>@string/marcas</item>
         <item>@string/listado</item>
     </string-array>
 </resources>

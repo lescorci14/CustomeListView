@@ -24,4 +24,5 @@
     <string name="resultado1">Registred Cars:</string>
     <string name="numero">N°</string>
     <string name="listado">Models 2010 - 2015</string>
+    <string name="marcas">N° Registred Cars per Branch</string>
 </resources>

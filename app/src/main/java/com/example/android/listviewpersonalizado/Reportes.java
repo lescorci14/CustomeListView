@@ -33,6 +33,9 @@ public class Reportes extends AppCompatActivity {
                         reporte1();
                         break;
                     case 1:
+                        reporte2();
+                        break;
+                    case 2:
                         i = new Intent(Reportes.this, ListadoReporte.class);
                         startActivity(i);
                         break;
@@ -45,13 +48,19 @@ public class Reportes extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(res.getString(R.string.result));
         builder.setMessage(res.getString(R.string.resultado1)+" "+Datos.registrados())
-                .setCancelable(false)
-                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        i = new Intent(Reportes.this, Principal.class);
-                        startActivity(i);
-                    }
-                });
+                .setCancelable(true);
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
+
+    public void reporte2(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(res.getString(R.string.result));
+        builder.setMessage(res.getString(R.string.audi)+": "+Datos.audi()+"\n"+
+        res.getString(R.string.chevrolet)+": "+Datos.chevrolet()+"\n"+
+        res.getString(R.string.kia)+": "+Datos.kia()+"\n"+
+        res.getString(R.string.renault)+": "+Datos.renault())
+                .setCancelable(true);
         AlertDialog alert = builder.create();
         alert.show();
     }
